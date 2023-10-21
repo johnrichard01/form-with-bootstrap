@@ -1,0 +1,146 @@
+body{
+    background-image: url(./background-image-form.jpg);
+    object-fit: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+*{
+    font-family: 'Roboto', sans-serif;
+}
+.fcon{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+
+}
+.con{
+    width: 600px;
+    height: 800px;
+    border-radius: 20px;
+    box-shadow: 0 0 8px 2px #94c0e4;
+}
+.frstnm{
+    border-radius: 20px;
+    border: none;
+    text-align: center;
+    box-shadow: 0 0 8px 2px #94c0e4;
+    opacity: 0.5;
+    
+}
+.frstnm:active{
+    border:2px solid #0077e6;
+}
+.frstnm:focus{
+    
+    outline: none;
+    border:2px solid #0077e6;
+}
+.lstnm{
+
+    border-radius: 20px;
+    border: none;
+    text-align: center;
+    box-shadow: 0 0 8px 2px #94c0e4;
+    opacity: 0.5;
+}
+.lstnm:focus{
+    outline: none;
+    border:2px solid #0077e6;
+}
+
+.lstnm:active{
+    border:2px solid #0077e6;
+}
+.eml{
+    opacity: 0.5;
+    border-radius: 20px;
+    border: none;
+    text-align: center;
+    box-shadow: 0 0 8px 2px #94c0e4;
+    
+}
+.eml:focus{
+    outline: none;
+    border:2px solid #0077e6;
+}
+.eml:active{
+    border:2px solid #0077e6;
+}
+.pass{
+    opacity: 0.5;
+    border-radius: 20px;
+    border: none;
+    text-align: center;
+    box-shadow: 0 0 8px 2px #94c0e4;
+    
+}
+.pass:focus{
+    outline: none;
+    border:2px solid #0077e6;
+}
+.pass:active{
+    border:2px solid #0077e6;
+}
+.phnnmbr{
+    opacity: 0.5;
+    border-radius: 20px;
+    border: none;
+    text-align: center;
+    box-shadow: 0 0 8px 2px #94c0e4;
+    
+}
+.phnnmbr:focus{
+    outline: none;
+    border:2px solid #0077e6;
+}
+.phnnmbr:active{
+    border:2px solid #0077e6;
+}
+.radyo-in{
+    opacity: 0.5;
+}
+.radyo-in:focus{
+    outline: none;
+    border:2px solid #0077e6;
+}
+.radyo-in:active{
+    border:2px solid #0077e6;
+}
+.ct{
+    opacity: 0.5;
+    height: 50px;
+    border-radius: 20px;
+    border: none;
+    text-align: center;
+    box-shadow: 0 0 8px 2px #94c0e4;
+
+}
+.ct:focus{
+    outline: none;
+    border:2px solid #0077e6;
+}
+.ct:active{
+    border:2px solid #0077e6;
+}
+.reg-btn{
+    height: 50px;
+    width: 100%;
+    border-radius: 20px;
+    border: none;
+    text-align: center;
+    box-shadow: 0 0 8px 2px #94c0e4;
+    background-color: #0077e6;
+    color: whitesmoke;
+    font-size: 1rem;
+   
+}
+.reg-btn:hover{
+    background-color: #8cbeed;
+    border:2px solid #0077e6;
+    color: black;
+}
+.reg-btn:active{
+    border:2px solid #0077e6;
+}
